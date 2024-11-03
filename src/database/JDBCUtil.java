@@ -12,8 +12,8 @@ public class JDBCUtil {
 		try {
 			DriverManager.registerDriver(new Driver());
 			String url = "jdbc:mySQL://localhost:3306/ASM_Java3";
-			String username = "root";
-			String password = "tqthuan1734";
+			String username = "";
+			String password = "";
 			c = DriverManager.getConnection(url, username, password);
 
 		} catch (SQLException e) {
